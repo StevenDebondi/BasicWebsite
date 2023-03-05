@@ -1,0 +1,86 @@
+/*
+Author: Steven Debondi
+Date: 5/03/23
+File Name: styles.css
+*/
+
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    width: 25%;
+    float: left;
+    padding-bottom: 0;
+}
+nav {
+    float: right;
+    width: 70%;
+    margin: 4em 1em 0 0;
+}
+
+nav ul {
+    text-align: right;
+}
+
+body {
+    background-color: #000;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    top: 0;
+    background-color: #000;
+    height: 190px;
+}
+
+header img {
+    margin: 0 auto;
+    height: 190px;
+    width: 190px;
+}
+
+main {
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: 'Roboto Slab', serif;
+}
+main img {
+    margin: 0 left;
+    height: 190px;
+    width: 500px;
+
+}
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    clear: left;
+}
+
+main h1 {
+    font-size: 1.8em;
+}
